@@ -1,6 +1,6 @@
-# 🏃‍♂️ RunningClubb
+# 🏃‍♂️ RunningClub
 
-**RunningClubb** est une plateforme sportive inspirée de Strava, dédiée au suivi des performances running, à la gestion de clubs et au partage d'activités au sein d'une communauté de coureurs.
+**RunningClub** est une plateforme sportive inspirée de Strava, dédiée au suivi des performances running, à la gestion de clubs et au partage d'activités au sein d'une communauté de coureurs.
 
 ## 🎯 Fonctionnalités principales
 
@@ -61,7 +61,7 @@ graph TB
 ## 📁 Structure du projet
 
 ```
-RunningClubb/
+RunningClub/
 ├── infra/                 # 🛠️ Infrastructure as Code (Terraform)
 │   ├── main.tf
 │   ├── variables.tf
@@ -121,7 +121,7 @@ terraform apply
 ```
 webapp_url = "https://runningclub-web-[random].azurecontainer.io"
 api_url = "https://runningclub-api-[random].azurecontainer.io"
-db_connection = "postgresql://user:pass@host:5432/runningclubb"
+db_connection = "postgresql://user:pass@host:5432/RunningClub"
 ```
 
 ## 🔄 CI/CD Pipeline (À venir)
